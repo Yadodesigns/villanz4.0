@@ -1,0 +1,106 @@
+/*phone*/
+@media (max-width:1000px){
+    #mobile{
+        display: block !important;
+    }
+    #desk{
+        display: none;
+    }
+    .header-cont{
+        display: none;
+    }
+    .team-area{
+        flex-direction: column;
+    }
+    .team-area .top-row, .team-area .bottom-row{
+        flex-direction: column !important;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .main-splash .inner .top-text h1{
+       font-size: 200% !important; 
+    }
+    .main-splash .inner .top-text br{
+        display: none;
+    }
+    .main-splash .inner .bottom-text p{
+        font-size: 100% !important;
+    }
+    .splash-cont,.road-cont,.mint-cont,.team-cont,.faq-cont{
+        padding: 2rem;
+    }
+    .splash-cont{
+        height: 100% !important;
+    }
+    .team-area .card{
+        width: 100% !important;
+       min-height: 600px !important;
+    }
+    .mint-cont {
+        padding: 0 !important;
+    }
+
+    .mint-cont .mint{
+        width: 80% !important;
+    }
+    .mint-cont .mint p{
+        width: 100% !important;
+    }
+    .copy .inner{
+        text-align: center;
+    }
+    .road-cont {
+        text-align: center;
+        padding-bottom: 10rem;
+    }
+      .splash-cont .mobile-logo img{
+        width: 80%;
+      }
+      .splash-cont .mobile-logo{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+      }
+      .main-splash{
+        padding-top: 0 !important;
+        margin-top: 2rem !important;
+      }
+      .logofloat{
+        display: none;
+      }
+      .slider-cont{
+        padding: 0 !important;
+      }
+}
+/*ultra-wide*/
+@media (min-width:2000px){
+.mint-cont .mint{
+    width: 40% !important;
+}
+.main-splash .inner .bottom-text p{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 150% !important;
+}
+.team-cont .card{
+    width: 20% !important;
+}
+}
+/*ultra 3000*/
+@media (min-width:3000px){
+    .mint-cont .mint{
+        width: 25% !important;
+    }
+    .main-splash .inner .bottom-text p{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 150% !important;
+    }
+    .team-cont .card{
+        width: 15% !important;
+    }
+    }
